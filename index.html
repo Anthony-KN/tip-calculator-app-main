@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <title>Frontend Mentor | Tip calculator app</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="header__title">SPLI<br />TTER</h1>
+        </header>
+        <div class="container__main">
+            <div class="container__section__left">
+                <label for="lbl-bill" class="container__section__left-lbl"
+                    >Bill
+                    <div class="container__section__left-error-bill"></div
+                ></label>
+
+                <input
+                    type="number"
+                    id="lbl-bill"
+                    class="container__section__left-input-bill"
+                    placeholder="0"
+                />
+                <fieldset class="container__section__left-selectTip">
+                    <legend class="container__section__left-lbl-people">
+                        Select Tip %
+                    </legend>
+                    <button id="btn-5%" class="container__section__left-btn">5%</button>
+                    <button id="btn-10%" class="container__section__left-btn">10%</button>
+                    <button id="btn-15%" class="container__section__left-btn">15%</button>
+                    <button id="btn-25%" class="container__section__left-btn">25%</button>
+                    <button id="btn-50%" class="container__section__left-btn">50%</button>
+                    <input
+                        type="number"
+                        id="input-custom"
+                        class="container__section__left-input"
+                        placeholder="Custom"
+                    />
+                </fieldset>
+                <label for="lbl-numberofpeople" class="container__section__left-lbl"
+                    >Number of People
+                    <div class="container__section__left-error-numberofpeople"></div
+                ></label>
+
+                <input
+                    type="number"
+                    id="lbl-numberofpeople"
+                    class="container__section__left-input-numberofpeople"
+                    placeholder="0"
+                />
+            </div>
+            <div class="container__section__right">
+                <div class="container__section__right--result">
+                    <div class="container__section__right--cont">
+                        <p class="container__section__right--title">Tip Amount</p>
+                        <p class="container__section__right--person">/ person</p>
+                    </div>
+                    <p class="container__section__right--total" id="total-tipAmount">
+                        $0.00
+                    </p>
+                    <div class="container__section__right--cont">
+                        <p class="container__section__right--title">Total</p>
+                        <p class="container__section__right--person">/ person</p>
+                    </div>
+                    <p class="container__section__right--total" id="total-total">$0.00</p>
+                </div>
+                <button id="reset" class="container__section__right--btn" disabled>
+                    Reset
+                </button>
+            </div>
+        </div>
+        <script src="/main.js"></script>
+        <div class="attribution">
+            Challenge by
+            <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+                >Frontend Mentor</a
+            >. Coded by <a href="#">Anthony Can</a>.
+        </div>
+    </body>
+</html>
