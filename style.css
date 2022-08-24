@@ -73,7 +73,7 @@ body {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
-  background-image: url("../images/icon-dollar.svg");
+  background-image: url("./images/icon-dollar.svg");
   background-repeat: no-repeat;
   background-position: 10px center;
 }
@@ -106,7 +106,7 @@ body {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
-  background-image: url("../images/icon-person.svg");
+  background-image: url("./images/icon-person.svg");
   background-repeat: no-repeat;
   background-position: 10px center;
 }
